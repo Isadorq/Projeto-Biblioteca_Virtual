@@ -1,0 +1,45 @@
+body {
+    font-family: 'Texturina', serif;
+    background-color: #727374;
+}
+
+/* .sidebar { */
+    /* border-radius: 10px; */
+    /* background-color: white; */
+    /* width: 50px; */
+    /* height: 150px; */
+/* } */
+
+.navbar{
+    padding: 10px;
+    margin: -84px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #575a5e;
+
+}
+
+.icon {
+    list-style-type: none;
+    padding: 50px;
+    display: flex; 
+    width: 120px;
+    justify-content: space-evenly;
+}
+
+.icon :hover {  
+    cursor: pointer;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: ;
+}
+
+/* .search { */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin-top: 30px; */ 
+/*}
