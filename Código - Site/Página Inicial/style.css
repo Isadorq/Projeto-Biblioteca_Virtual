@@ -6,46 +6,60 @@ body {
 .navbar {
     background-color: #575A5E;
     border-radius: 5px;
-    height: 55px;
+    height: 70px;
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 0 20px; 
+    padding: 0 20px;
     box-sizing: border-box;
 }
 
-
 .icon {
-    list-style-type: none; 
+    list-style-type: none;
     display: flex;
-    justify-content: space-between; 
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    align-items: center; 
 }
 
-.icon li {
-    margin-left: 20px;
-}
-
-.icon:hover{
-    cursor: pointer;
-}
-
-.right-icons {
+.logo {
     display: flex;
+    justify-content: flex-start;
+    margin-left: 60px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    display: block;
 }
 
 .search {
     display: flex;
     justify-content: center;
-    flex: 1;
+    height: 35px;
+    margin-left: 20px; 
     border-radius: 5px;
+    flex: 1; 
 }
 
-/* .logo img { */
-    /* width: 10px; */
-    /* height: 10px; */
-/* } */
+.search input {
+    width: 134px;
+    height: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.right-icons {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.right-icons li {
+    margin-left: 20px;
+}
 
 .banner img{
     width: 815px;
